@@ -35,7 +35,7 @@ include "header.php";
                 //$hashed_password = sha1($password);
 
                 // add user to database
-                $query = "INSERT INTO `authUsers` 
+                $query = "isset INSERT INTO `authUsers` 
                                 (`id`, `email`, `password`, `role`) 
                             VALUES 
                                 (NULL, ?, ?, ?);";
@@ -82,7 +82,7 @@ include "header.php";
                 $password = $_POST['password'];
 
                 // get user record from database and check login
-                $query = "SELECT email, password, role FROM authUsers WHERE email = ?";
+                $query = "isset SELECT email, password, role FROM authUsers WHERE email = ?";
                 $stmt = mysqli_prepare($db, $query);
                 mysqli_stmt_bind_param($stmt, 's', $email);
                 mysqli_stmt_bind_result($stmt, $email, $hashed_password, $role);

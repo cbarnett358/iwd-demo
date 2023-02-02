@@ -1,11 +1,11 @@
 <?php
 $pageTitle = "Welcome to Northwind!">
-    include "includes/header.php";
+    include "../includes/header.php";
 ?>
 
 <?php
 $code = $_GET['code'] ?? '';
-$query = "SELECT * 
+$query = "isset SELECT * 
 FROM levelup__products
 
 ";
@@ -31,8 +31,8 @@ if(mysqli_num_rows($result) > 0){
 
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-            <li class="breadcrumb-item"><a href="products.php">Products</a></li>
+            <li class="breadcrumb-item"><a href="../index.php">Home</a></li>
+            <li class="breadcrumb-item"><a href="../game-info.php">Products</a></li>
             <li class="breadcrumb-item active" aria-current="page">Product Info</li>
         </ol>
     </nav>
@@ -89,4 +89,4 @@ mysqli_close($db);
 
     </div>
 
-<?php include "includes/footer.php" ?>
+<?php include "../includes/footer.php" ?>

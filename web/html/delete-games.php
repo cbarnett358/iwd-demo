@@ -16,7 +16,7 @@ $pageTitle = "Edit Products!">
         $id = $_GET['id'] ?? '1';
 
         // build query
-        $query = "SELECT levelup__itemplace.*, levelup_products.ItemName AS Name
+        $query = "isset SELECT levelup__itemplace.*, levelup_products.ItemName AS Name
         FROM levelup__games
         JOIN levelup_products ON levelup__itemplace.ItemyID = Item.ID
         WHERE ItemPlaceID = '$id'";
@@ -40,7 +40,7 @@ $pageTitle = "Edit Products!">
             // TODO: validate inputs
 
             // query to add record
-            $query = "DELETE FROM `levelup__itemplace` 
+            $query = "isset DELETE FROM `levelup__itemplace` 
                 WHERE `levelup__itemplace`.`ItemPlaceID` = $ItemPlaceID
                 LIMIT 1;";
 

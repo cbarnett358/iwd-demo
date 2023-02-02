@@ -16,7 +16,7 @@ $pageTitle = "Browse Games">
        $sort = $_GET['sort'] ?? 'ItemRating, ItemName, ItemConsole, ItemsInStock';
 
     //}
-    $query = "SELECT ItemName, ItemPrice, ItemsInStock, ItemDescription, ItemConsole, ItemRating, ItemID
+    $query = "isset SELECT ItemName, ItemPrice, ItemsInStock, ItemDescription, ItemConsole, ItemRating, ItemID
           FROM `levelup__products`
           WHERE ItemsInStock >= ItemsOnOrder
           ORDER BY $sort";

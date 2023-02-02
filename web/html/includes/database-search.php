@@ -35,7 +35,7 @@ $pageTitle = "Welcome to Northwind!">
 
             $searchString = "%$searchString%";
 
-            $sql = "SELECT * FROM levelup__products WHERE ItemName LIKE ?";
+            $sql = "isset SELECT * FROM levelup__products WHERE ItemName LIKE ?";
 
             $prepared_stmt = $connection_string->prepare($sql);
             $prepared_stmt->bind_param('s', $searchString);

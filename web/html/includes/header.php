@@ -20,7 +20,7 @@ require_once "database.php";
         <div class="container">
             <a href="#" class="navbar-brand">
                 <!-- Logo Image -->
-                <img src="includes/images/levelUP_Logo.png" height="45" alt="" class="d-inline-block align-middle mr-2">
+                <img src="../includes/images/levelUP_Logo.png" height="45" alt="" class="d-inline-block align-middle mr-2">
                 <!-- Logo Text -->
             </a>
 
@@ -28,7 +28,7 @@ require_once "database.php";
 
             <div id="navbarSupportedContent" class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a href="index.php" class="nav-link">HOME</a></li>
+                    <li class="nav-item"><a href="../index.php" class="nav-link">HOME</a></li>
                     <li class="nav-item"><a href="games.php" class="nav-link">PRODUCTS</a></li>
                     <li class="nav-item"><a href="login.php" class="nav-link">LOG-IN</a></li>
                     <li class="nav-item"><a href="orders.php" class="nav-link">ORDERS</a></li>

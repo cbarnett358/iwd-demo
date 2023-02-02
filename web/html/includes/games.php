@@ -10,7 +10,7 @@ require_once "database.php";
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="includes/style.css">
+    <link rel="stylesheet" type="text/css" href="../includes/style.css">
     <title>Shop Our Games</title>
 </head>
 <body>
@@ -34,7 +34,7 @@ $pageTitle = "View Used Games!">
     if (isset($_GET['orderBy']) && in_array($_GET['orderBy'], $orderBy)) {
         $order = $_GET['orderBy'];
     }
-    $query = "SELECT ItemName, ItemPrice, ItemsInStock
+    $query = "isset SELECT ItemName, ItemPrice, ItemsInStock
           FROM `levelup__products`
           WHERE (((Discontinued)=False) AND ((UnitsInStock)>=UnitsOnOrder))
           ORDER BY '.$order'";

@@ -11,7 +11,8 @@ img {
 h1 {
     color: #f2d027;
     padding-bottom: 15px;
-    padding-top: 30px;
+    margin-top: 10px;
+    padding-top: 50px;
     font-weight: 700;
     font-style: normal;
 
@@ -26,9 +27,8 @@ h1 {
 h6 {
     color: #f2d027;
     font-family: bebas-neue-pro-expanded, sans-serif;
-
+    font-size: 90px;
     font-weight: 700;
-
     font-style: normal;
 
 
@@ -60,11 +60,13 @@ body {
     min-height: 100vh;
 
 }
+button[type=submit] {
+    color: rebeccapurple;
+}
 p {
     font-family: bebas-neue-pro, sans-serif;
-
+    font-size: 18px;
     font-weight: 500;
-
     font-style: normal;
 
 }

@@ -8,7 +8,7 @@
                 <!-- Grid column -->
                 <div class="col-md-2">
                     <h6 class="text-uppercase font-weight-bold">
-                        <a href="index.php" class="text-white">Home</a>
+                        <a href="../index.php" class="text-white">Home</a>
                     </h6>
                 </div>
                 <!-- Grid column -->
@@ -47,7 +47,7 @@
         <section class="mb-5">
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-8">
-                    <img src="includes/images/levelUP_Logo.png"   alt="footer image" height="60">
+                    <img src="./images/levelUP_Logo.png"   alt="footer image" height="60">
 
                 </div>
             </div>

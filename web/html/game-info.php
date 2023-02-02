@@ -5,7 +5,7 @@ $pageTitle = "Welcome to Northwind!">
 
 <?php
 $code = $_GET['code'] ?? '';
-$query = "SELECT * 
+$query = "isset SELECT * 
 FROM levelup__products
 
 ";

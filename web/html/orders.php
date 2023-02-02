@@ -14,7 +14,7 @@ $pageTitle = "View Orders">
 
     $sort = $_GET['sort'] ?? 'CustomerName, OrderCity, OrderState, DateShipped,DatePurchased, ItemName, ItemPrice, OrderAddress';
     // Query to run on database
-    $query = "SELECT *
+    $query = "isset SELECT *
           FROM levelup__orders
           LEFT JOIN levelup__products
           ON 

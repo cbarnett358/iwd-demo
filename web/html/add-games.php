@@ -14,7 +14,7 @@ $id = $_GET['id'] ?? '1';
 $id = intval($id);
 
 // build query
-$query = "SELECT * FROM levelup__products WHERE ID = '$id'";
+$query = "isset SELECT * FROM levelup__products WHERE ID = '$id'";
 
 // execute query
 $result = mysqli_query($db, $query) or die('Error loading products.');
@@ -53,7 +53,7 @@ if(isset($_POST['add'])) {
     $address = str_replace(['onmouseover', 'onmouseout', 'onload', '.......'], 'xxxxx', $address);
 
 
-    $query = "INSERT INTO `levelup__products` 
+    $query = "isset INSERT INTO `levelup__products` 
         (`ItemID`, `ItemName`, `ItemPrice`, `ItemsInStock`, `ItemConsole`, `ItemDescription`, `ItemRating`) 
     VALUES 
         (NULL, ?, ?, ?, ?, ?);";

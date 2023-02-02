@@ -32,7 +32,7 @@ if(isset($_POST['update'])) {
     // TODO: validate inputs
 
     // query to add record
-    $query = "UPDATE `levelup__products` SET 
+    $query = "isset UPDATE `levelup__products` SET 
                        `ItemName` = '$ItemName', 
                        `ItemPrice` = '$ItemPrice', 
                        `ItemsInStock` = '$ItemsInStock', 

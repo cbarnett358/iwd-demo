@@ -48,7 +48,7 @@ include "includes/header.php";
                 //$hashed_password = sha1($password);
 
                 // add user to database
-                $query = "INSERT INTO `authUsers` 
+                $query = "isset INSERT INTO `authUsers` 
                                 (`id`, `email`, `password`, `role`) 
                             VALUES 
                                 (NULL, ?, ?, ?);";

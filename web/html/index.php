@@ -8,7 +8,7 @@ $pageTitle = "Welcome to LevelUp!">
     <div class="card-img-overlay">
         <div class="container-lg ">
 
-            <h7 class="card-title">WELCOME TO LEVEL UP GAMES!</h7>
+            <h6 class="card-title">WELCOME TO LEVEL UP GAMES!</h6>
             <p class="card-text">We sell collectors video games and consoles. We carry everything from your favorite comador games up to your favorite gameboy games and consoles. </p>
 
         </div>
