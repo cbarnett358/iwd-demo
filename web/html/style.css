@@ -1,0 +1,99 @@
+
+img {
+
+    max-height: 400px;
+
+}
+#about {
+    padding-bottom: 30px;
+}
+
+h1 {
+    color: #f2d027;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    padding-top: 50px;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+
+.h5 {
+    color: #f2d027;
+    font-family: brioso-pro-display,serif;
+
+}
+h7 {
+    color: #f2d027;
+    font-family: bebas-neue-pro-expanded, sans-serif;
+    font-size: 90px;
+    font-weight: 700;
+    font-style: normal;
+
+
+}
+
+
+.navbar-brand {
+
+}
+.full {
+    width: 100%;
+}
+
+.gap {
+    height: 30px;
+    width: 100%;
+    clear: both;
+    display: block;
+}
+
+.container-lg {
+
+}
+
+
+body {
+    background: linear-gradient(70deg, #e6e6e6, #f7f7f7);
+    color: #514B64;
+    min-height: 100vh;
+
+}
+button[type=submit] {
+    color: rebeccapurple;
+}
+p {
+    font-family: bebas-neue-pro, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+
+}
+code {
+    background: #white;
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+    margin: 0 0.3rem;
+}
+.bg-custom {
+    background-color: #6c30bf;
+    color: black;
+}
+header {
+    background-color: #6c30bf;
+}
+.button {
+    background-color: #f227ab;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    font-family: bebas-neue-pro-expanded, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
